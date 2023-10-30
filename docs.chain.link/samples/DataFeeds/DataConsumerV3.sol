@@ -29,7 +29,8 @@ contract DataConsumerV3 {
      */
     constructor() {
         dataFeed = AggregatorV3Interface(
-            0x1b44F3514812d835EB1BDB0acB33d3fA3351Ee43
+            //0x1b44F3514812d835EB1BDB0acB33d3fA3351Ee43//BTC
+             0x694AA1769357215DE4FAC081bf1f309aDC325306//ETH
         );
     }
 
