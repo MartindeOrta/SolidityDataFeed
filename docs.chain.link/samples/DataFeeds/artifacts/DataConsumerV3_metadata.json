@@ -12,12 +12,51 @@
 			},
 			{
 				"inputs": [],
-				"name": "getChainlinkDataFeedLatestAnswer",
+				"name": "getChainlinkDataFeedLatestAnswerBTC",
 				"outputs": [
 					{
 						"internalType": "int256",
 						"name": "",
 						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getChainlinkDataFeedLatestAnswerETH",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_moneda",
+						"type": "uint256"
+					}
+				],
+				"name": "getdatafeedvalor",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "moneda",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -35,7 +74,7 @@
 				"constructor": {
 					"notice": "Network: Sepolia Aggregator: BTC/USD Address: 0x1b44F3514812d835EB1BDB0acB33d3fA3351Ee43"
 				},
-				"getChainlinkDataFeedLatestAnswer()": {
+				"getChainlinkDataFeedLatestAnswerETH()": {
 					"notice": "Returns the latest answer."
 				}
 			},
@@ -68,11 +107,11 @@
 			]
 		},
 		"docs.chain.link/samples/DataFeeds/DataConsumerV3.sol": {
-			"keccak256": "0xf626d374100810d74f9e5010cd6660c9228d226048b1507a3d915d63db4104da",
+			"keccak256": "0x8298eaa939a17f1d068d50106bc5da2ed0a62586086e869ce80a651da2188ff1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://054710701ca68379a4d05e58f8efa2e17e95738eaa3933cd440c4536bf98191d",
-				"dweb:/ipfs/QmNfEXCQxjRYeVcGaFo4NoitFjwGsDmnwM5LViDZJvTYMP"
+				"bzz-raw://64506bf50c3d32d59aa1c327608ff46a4e841d6b0f2f15a54ae8f212c8f88b7a",
+				"dweb:/ipfs/QmRMjAuGEfxvVCmyM6L8q4rjDwKh4wCMsiER5nscUdpN76"
 			]
 		}
 	},
